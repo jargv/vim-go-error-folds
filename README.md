@@ -33,3 +33,8 @@ nnoremap <leader>;f :ToggleGoErrorFolding<cr>
 
 This command saves and restores the previous values of
 `foldmethod` and `foldexpr`
+
+## Background
+This idea originated in a github issue to change the syntax
+of go to have terser error handling: ([golang/go/issues/18721](https://github.com/golang/go/issues/18721)).
+Credit for this idea goes to @dlsniper.
