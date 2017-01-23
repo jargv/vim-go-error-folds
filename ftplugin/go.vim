@@ -72,6 +72,7 @@ func! GetGoErrorFoldText()
   "get the line, hide the error var
   let line = getline(v:foldstart)
   let line = substitute(line, ',\ err\ ', ' ', '')
+  let line = substitute(line, '\<err\ :\?=\ ', '', '')
 
   "find the last non-blank line in the fold
   let foldend = v:foldend
