@@ -3,6 +3,8 @@
 Lets get one thing out of the way: Go error handling is
 awesome. This plugin exists to make it even better.
 
+![Comparison](/../master/compare.png?raw=true "Before and After")
+
 This plugin uses vim's `foldmethod=expr` to create folds
 around your error handling code.  You still write your go
 code as before, but you can toggle the folds off and on.
@@ -37,4 +39,3 @@ This command saves and restores the previous values of
 ## Background
 This idea originated in a github issue to change the syntax
 of go to have terser error handling: ([golang/go/issues/18721](https://github.com/golang/go/issues/18721)).
-Credit for this idea goes to @dlsniper.
