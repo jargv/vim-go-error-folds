@@ -17,7 +17,6 @@ func! <SID>ToggleGoErrorFolding()
     normal zR
     echo "go error folding [off]"
   endif
-  set debug=msg
 endfunc
 
 func! GetGoErrorFold(lnum)
